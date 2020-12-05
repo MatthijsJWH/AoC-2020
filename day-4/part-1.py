@@ -24,8 +24,6 @@ for line in input:
         for item in line.split(' '):
             formatted[i].append(item)
 
-print(formatted)
-
 valid_pp = ['byr', 'cid', 'ecl', 'eyr', 'hcl', 'hgt', 'iyr', 'pid']
 semi_valid_pp = ['byr', 'ecl', 'eyr', 'hcl', 'hgt', 'iyr', 'pid']
 valids = 0
